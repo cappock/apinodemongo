@@ -10,11 +10,19 @@ let Student = new Schema(
       type: String,
     },
     grades: {
-      type: String,
+      type: Array,
+    },
+    approved: {
+      type: Boolean,
+    },
+    average: {
+      type: Number,
     },
   },
   {
     collection: "students",
   }
 );
+
+
 module.exports = mongoose.model("Student", Student);

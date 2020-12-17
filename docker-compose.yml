@@ -9,7 +9,7 @@ services:
     networks:
       - mongito
     depends_on: 
-      - mongo
+      - mongo 
   mongo:
     container_name: studentsApi
     image: mongo

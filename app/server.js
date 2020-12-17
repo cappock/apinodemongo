@@ -20,7 +20,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 app.use("/students", studentsRoute);
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 4000;
 app.get("/", function (req, res) {
   console.log("Test app");
   res.json({ hello: "world" });
