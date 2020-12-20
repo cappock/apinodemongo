@@ -1,26 +1,13 @@
 # apinodemongo
 
 # Students API
-
-  
-
-### **Pre-requisites**
-
-  
-
-- Git - [Installation guide here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-
-- Docker - [Installation guide here](https://docs.docker.com/engine/install/)
-
-- Docker-compose - [Installation guide here](https://docs.docker.com/compose/install/)
-
   
 
 ### **Importance of docker**
 
   
 
-The importance of the use of containers lies in the ease of execution and distribution of applications, especially when working on equipment. Containers eliminate the "on my machine if I ran" that we are used to, standardizing the development and production environment.
+Docker is one of the most buzzwords in the software world. If you've ever wondered why, the main answer is because of the value that containers and development with Docker instances bring to both programmers and software administrators, and especially those who have adopted a focused workflow. in DevOps. Docker enables these development teams to achieve very high efficiency in the delivery and deployment of software, solving many of the challenges presented by traditional virtualization.
 
   
 ### **How to run**
